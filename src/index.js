@@ -1,1 +1,2 @@
-import "./myapp/index"
+// import "./myapp/index"
+import "./introductionToReactInOneDay/index"
