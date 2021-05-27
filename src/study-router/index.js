@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import JSX from './JSX/jsx'
+import Home from './Home'
+import {BrowserRouter as Router, Link, Switch,Route,useHistory,withRouter} from 'react-router-dom';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <JSX />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <Router>
+        <Home />
+    </Router>,
+    document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function

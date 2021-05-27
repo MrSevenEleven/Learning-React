@@ -29,9 +29,14 @@ class LoggingButton extends React.Component {
     }
 }
 
-ReactDOM.render(
-    // element,
-    <LoggingButton></LoggingButton>,
-    document.getElementById('root')
-);
+// ReactDOM.render(
+//     // element,
+//     <LoggingButton></LoggingButton>,
+//     document.getElementById('root')
+// );
 
+ReactDOM.render(<input value="hi" />, document.getElementById('root'));
+
+setTimeout(function() {
+    ReactDOM.render(<input value={null} />, document.getElementById('root'));
+}, 1000);
