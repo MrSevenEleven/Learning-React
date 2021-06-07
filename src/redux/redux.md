@@ -1,5 +1,5 @@
 # redux&&redux-react
-redux是一个状态管理工具，相较于vuex只能在Vue项目中应用，redux不限于框架。而redux-react将redux与react集成。
+redux是一个js状态管理工具，相较于vuex只能在Vue项目中应用，redux不限于框架。而redux-react将redux与react集成。
 
 ## redux  
 ```
